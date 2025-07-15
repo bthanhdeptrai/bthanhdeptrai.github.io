@@ -1,11 +1,91 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Trang của Bảo Thanh</title>
-    <meta charset="UTF-8">
-  </head>
-  <body>
-    <h1>Hello! Mình là Bảo Thanh đẹp trai số 1 hệ mặt trời ☀️</h1>
-    <p>Đây là website đầu tiên mình tự tay làm bằng HTML và GitHub Pages 😼</p>
-  </body>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bảo Thanh đẹp trai 😎</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1740&q=80");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      transition: background 0.3s;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 20px;
+      max-width: 600px;
+      margin: auto;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    img.avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #00aaff;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    a.button:hover {
+      background: #0077cc;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #111;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.imgur.com/1X1Kj8T.png" alt="Avatar Bảo Thanh" class="avatar">
+    <h1>Chào mừng đến với trang của Bảo Thanh 😎</h1>
+    <p>muahhaha 💻✨</p>
+    <a href="https://www.facebook.com/ng.thienbt" target="_blank" class="button">📲 Kết bạn Facebook</a>
+  </div>
+</body>
 </html>
