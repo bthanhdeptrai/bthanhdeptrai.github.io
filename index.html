@@ -24,6 +24,18 @@
       transition: background 0.3s;
     }
 
+
+    .button-group {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px 10px; 
+      max-width: 400px; 
+      margin: 20px auto;
+      justify-items: center;
+    }
+
+
+
     .container {
       background: rgba(0, 0, 0, 0.6);
       padding: 40px;
@@ -51,6 +63,8 @@
 
     a.button {
       display: inline-block;
+      min-width: 130px;
+      text-align: center;
       margin-bottom: 5px;
       padding: 12px 24px;
       background: #555683;
@@ -82,9 +96,14 @@
   <div class="container">
     <img src="491679981_631801783180367_5014168514333416141_n.jpg" alt="Avatar Bảo Thanh" class="avatar">
     <h1>Thông tin cá nhân của bthanh nha 😎</h1>
-    <a href="https://www.facebook.com/ng.thienbt" target="_blank" class="button">Facebook</a>
-    <a href="https://www.instagram.com/ng.thienbt" target="_blank" class="button">Instagram</a><br>
-    <a href="https://www.tiktok.com/@ng.thienbt?is_from_webapp=1&sender_device=pc" target="_blank" class="button">Tiktok</a>
+    <div class="button-group"> 
+      <a href="https://www.facebook.com/ng.thienbt" target="_blank" class="button">Facebook</a>
+      <a href="https://www.facebook.com/bthanhdeptraiii" target="_blank" class="button">Facebook 2</a>
+      <a href="https://www.instagram.com/ng.thienbt" target="_blank" class="button">Instagram</a>
+      <a href="https://www.tiktok.com/@ng.thienbt?is_from_webapp=1&sender_device=pc" target="_blank" class="button">Tiktok</a>
+      <a href="https://locket.camera/links/ES1XHoYDc9TsMtS76" target="_blank" class="button">Locket</a>
+      <a href="https://ngl.link/bthanhsiudeptrai" target="_blank" class="button">Ngl.link</a>
+    </div>
   </div>
 </body>
 </html>
